@@ -6,6 +6,10 @@
 
 *   *git config --global user.email yourname@example.com*
 
+После указания своих данных, можно их просмотреть:
+
+* *git config --global --list*
+
 Чтобы установить имя main для вашей ветки по умолчанию, выполните следующую команду:
 
 *  *git config --global init.defaultBranch main*
