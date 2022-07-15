@@ -137,13 +137,20 @@ echo "# YourRepositoriyName" >> README.md добавляет новый файл
 # Опубликовать на GitHub уже созданный "локальный" проект размещенный на компьютере.
 
 Поэтапно следуем командам которые предлагает нам GitHub:
+"push an existing repository from the command line"
 
-git remote add origin https://github.com/lebedss/TEST.git
-git branch -M main
-git push -u origin main
+1. git remote add origin https://github.com/lebedss/TEST.git
+
+2. git branch -M main
+
+3. git push -u origin main
 
 
+**1-ая команда:**
 
+**2-ая команда:**
+
+**3-ая команда:**
 
 
 
