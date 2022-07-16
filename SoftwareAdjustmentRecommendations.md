@@ -14,3 +14,14 @@ git config --global core.autocrlf true  -  включить преобразов
 (если вы установили git в другую директорию то ссылка будет иметь вид относительно установленной вами директории).
 
 Перезагружаем Visual Stuio Code Открываем терминал и проверяем, что запущен bash терминал
+
+
+Смена редактора сообщений коммитов Git под управлением Windows :
+
+Примерно так: (консоль Git-bash):
+*git config --global core.editor "notepad"*
+*git config --global core.editor "vim"*
+
+Или прописать путь
+На примере установленного в системе Sublime:
+$ git config --global core.editor "'C:/Program Files (x86)/sublime text 3/subl.exe' -w"
