@@ -21,7 +21,7 @@
 *git config --global core.editor "notepad"*
 *git config --global core.editor "vim"*
 
-Или просто прописать соотвествующий путь.
+Или просто прописать соотвествующий путь к exe файлу вашего текстового редактора.
 
 На примере уже установленного в системе Sublime Text 3:
 *git config --global core.editor "'C:/Program Files (x86)/sublime text 3/subl.exe' -w"*
