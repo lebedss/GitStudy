@@ -14,21 +14,21 @@
 
 Вместо user-name подставьте логин, который указывали при регистрации. В данном случае это test-github-04, а вместо email@example.com — адрес вашей электронной почты. В данном примере — testgithub@gmail.com.
 
-[Вот что у нас должно получиться](Project_Images\adjusting_github_account_details_via_git.png)
+[Вот что у нас должно получиться](Project_Images/adjusting_github_account_details_via_git.png)
 
-Если вы всё сделали по инструкции, то при выполнении команды *git config --list* отобразится [ваше имя пользователя и e-mail](Project_Images\AdjustingGitHubAccountDetailsViaGit2.png)
+Если вы всё сделали по инструкции, то при выполнении команды *git config --list* отобразится [ваше имя пользователя и e-mail](Project_Images/AdjustingGitHubAccountDetailsViaGit2.png)
 
 **Если на момент регистрации акаунта на GitHub вы уже настроили и установили сам Git и при этом Вы уже внесли какие-то данные - не преживайте, просто воспользуйтесь выше указаными командами и обновите имя пользователя и e-mail используя новые данные которые вы вносили при регистрации на GitHub**
 
 # Как опубликовать первый проект на GitHub:
 Зайдите в ваш профиль: для этого кликните по иконке в правом верхнем углу и нажмите 
-[Your Profile](Project_Images\HowToStartNewProjectOnGitHub.png)
+[Your Profile](Project_Images/HowToStartNewProjectOnGitHub.png)
 
 Теперь создайте репозиторий: перейдите во вкладку Repositories и кликните по кнопке 
-[New](Project_Images\NewRepositoriyCreation.png)
+[New](Project_Images/NewRepositoriyCreation.png)
 
 Задайте имя репозитория. На скриншоте название проекта test-github и он сделан публичным, чтобы его могли просматривать все пользователи. Далее нажмите кнопку:
-[Create repository](Project_Images\Create_a_new_repository.png)
+[Create repository](Project_Images/Create_a_new_repository.png)
 
 Пока проект пустой, но мы можем поместить в него наши файлы с нашего компьютера.
 
@@ -36,7 +36,7 @@
 
 Подробнее про различия протоколов можно прочитать в приложенной к данному проекту документации(см. стр.109): 
 
-Github предлагает [несколько вариантов действий при создании проекта:](Project_Images\OptionsForRepositoriesCreation.png)
+Github предлагает [несколько вариантов действий при создании проекта:](Project_Images/OptionsForRepositoriesCreation.png)
 
 0. Клонировать папку нашего проекта согласно выбранному протоколу HTTPS либо SSH 
 1. Создать обсолютно новый проект с нуля 
@@ -68,7 +68,7 @@ __Как клонировать проект в другую папку?__
 
 # Создание проекта на GitHub с нуля:
 
-[При помощи команды cd нужно найти нужную папку](Project_Images\HowToFindCorrectDirectoryForNewProject.png)
+[При помощи команды cd нужно найти нужную папку](Project_Images/HowToFindCorrectDirectoryForNewProject.png)
 
 Поэтапно следуем командам которые предлагает нам GitHub:
 
@@ -84,11 +84,11 @@ __Как клонировать проект в другую папку?__
 
 echo "# YourRepositoriyName" >> README.md добавляет новый файл в проект. 
 
-[Его также можно создать вручную в папке](Project_Images\EchoReadmeMD.png)
+[Его также можно создать вручную в папке](Project_Images/EchoReadmeMD.png)
 
 **2-ая команда:**
 
-[git init — инициализирует проект.](Project_Images\GitInit.png)
+[git init — инициализирует проект.](Project_Images/GitInit.png)
 
 После инициализации создаётся специальная скрытая папка для Git:
 
@@ -103,19 +103,19 @@ echo "# YourRepositoriyName" >> README.md добавляет новый файл
 * printenv -  позволяет отобразить все переменные окружения
 
 **3-ая команда:**
-[git add README.md — добавляет изменённые файлы к коммиту](Project_Images\git_add_READMEmd.png)
+[git add README.md — добавляет изменённые файлы к коммиту](Project_Images/git_add_READMEmd.png)
 Также это можно сделать при помощи команды git add . — в таком случае вы добавите не конкретные файлы, а все изменённые, если их много.
-[git status поможет проверить, что происходит с изменёнными файлами.](Project_Images\git_status.png)
+[git status поможет проверить, что происходит с изменёнными файлами.](Project_Images/git_status.png)
 В нашем случае, например, файлы не прикреплены к коммиту
 
 **4-ая команда:**
 
-[git commit -m "first commit" добавляет сообщение к коммиту — то, что будет отображаться в истории](Project_Images\git_commit_m_first_commit.png)
+[git commit -m "first commit" добавляет сообщение к коммиту — то, что будет отображаться в истории](Project_Images/git_commit_m_first_commit.png)
 Теперь снова посмотрим, что скажет git status. Сейчас он пустой, так как все изменённые файлы мы прикрепили к только что созданному коммиту
 
 **5-ая команда:**
 
-[git branch -M main переименоввывает ветку в main](Project_Images\git_branch_M_main.png)
+[git branch -M main переименоввывает ветку в main](Project_Images/git_branch_M_main.png)
 В нашем примере текущая ветка называется master. Но с 2020 года GitHub выступает за то, чтобы главная ветка называлась main (по политическим причинам) и рекомендует переименовать ветку с помощью команды git branch -M main.
 
 В скобках можно указать любой текст. Как правило, в нём кратко описывают, что делали в коммите.
@@ -123,7 +123,7 @@ echo "# YourRepositoriyName" >> README.md добавляет новый файл
 
 **6-ая команда:**
 
-[Получаем такой результат](Project_Images\git_remote_add_origin.png)
+[Получаем такой результат](Project_Images/git_remote_add_origin.png)
 
 Команда git remote add origin https://github.com/YourGitHubName/YourRepositoriyName.git добавляет сервер, где origin — это имя сервера, а url — это адрес.
 У вас может быть несколько удалённых серверов, с которыми работает проект. 
@@ -131,7 +131,7 @@ echo "# YourRepositoriyName" >> README.md добавляет новый файл
 
 **7-ая команда:**
 
-[git push -u origin main позволяет запушить (отправить) ветку main на сервер origin](Project_Images\git_push_u_origin_main.png)
+[git push -u origin main позволяет запушить (отправить) ветку main на сервер origin](Project_Images/git_push_u_origin_main.png)
 
 __Тут вам, скорее всего, потребуется связать приложение и GitHub, повторно залогинившись через браузер.__
 
@@ -151,7 +151,7 @@ __Тут вам, скорее всего, потребуется связать 
 
 Для связи с GitHub'ом указали удаленный репозиторий. 
 
-[Адресс на сайте Github](Project_Images\RepositoriyAdress.png)
+[Адресс на сайте Github](Project_Images/RepositoriyAdress.png)
 
 **2-ая команда:**
 
@@ -167,11 +167,11 @@ __Тут вам, скорее всего, потребуется связать 
 
 # Импортировать код из какого-то другого репозитория в свой:
 
-1. [Жмём кнопку Import Code](Project_Images\import_code_from_another_repository1.png)
+1. [Жмём кнопку Import Code](Project_Images/import_code_from_another_repository1.png)
 
-2. [Вставляем ссылку на репозиторий который хотим импортировать](Project_Images\import_code_from_another_repository2.png) и нажимаем Begin import
+2. [Вставляем ссылку на репозиторий который хотим импортировать](Project_Images/import_code_from_another_repository2.png) и нажимаем Begin import
 
-3. [Ждём когда процесс импорта закончится](Project_Images\import_code_from_another_repository3.png)
+3. [Ждём когда процесс импорта закончится](Project_Images/import_code_from_another_repository3.png)
 
 
 __Наиболее употребляемые команды для работы с удалёнными репозиториями:__
