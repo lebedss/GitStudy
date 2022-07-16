@@ -2,7 +2,7 @@
 
 Чтобы воспользоваться сервисом, нужно зайти на сайт GitHub (https://github.com/) и зарегистрировать нового пользователя. Придумайте имя и пароль, а также введите email, к которому у вас есть доступ:
 
-[Это выглядит как-то так](Project_Images\CreateAccountOnGitHub.png)
+[Это выглядит как-то так](Project_Images\CreateAccountOnGitHub.PNG)
 
 Не забудьте верифицировать аккаунт: откройте первое письмо на почте от GitHub и пройдите по ссылке. Иначе вы не сможете создавать репозитории.
 
@@ -14,7 +14,7 @@
 
 Вместо user-name подставьте логин, который указывали при регистрации. В данном случае это test-github-04, а вместо email@example.com — адрес вашей электронной почты. В данном примере — testgithub@gmail.com.
 
-[Вот что у нас должно получиться](Project_Images\AdjustingGitHubAccountDetailsViaGit.png)
+[Вот что у нас должно получиться](Project_Images\adjusting_github_account_details_via_git.png)
 
 Если вы всё сделали по инструкции, то при выполнении команды *git config --list* отобразится [ваше имя пользователя и e-mail](Project_Images\AdjustingGitHubAccountDetailsViaGit2.png)
 
