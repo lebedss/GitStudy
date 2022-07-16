@@ -1,8 +1,8 @@
-Если вы в Windows:
+# Если вы в Windows:
 
-git config --global core.autocrlf true  -  включить преобразование окончаний строк из CRLF в LF
+*git config --global core.autocrlf true*  -  включить преобразование окончаний строк из CRLF в LF
 
-Настройка терминала VS Code в Windows:
+**Настройка терминала VS Code в Windows:**
 
 По умолчанию консоль VS Code в Windows запускает стандартную командную строку Windows, которая не может работать с GIT, чтобы все работало нужно запустить терминал bash, 
 
@@ -15,13 +15,13 @@ git config --global core.autocrlf true  -  включить преобразов
 
 Перезагружаем Visual Stuio Code Открываем терминал и проверяем, что запущен bash терминал
 
-
-Смена редактора сообщений коммитов Git под управлением Windows :
+# Смена редактора сообщений коммитов Git под управлением Windows :
 
 Примерно так: (консоль Git-bash):
 *git config --global core.editor "notepad"*
 *git config --global core.editor "vim"*
 
-Или прописать путь
-На примере установленного в системе Sublime:
-$ git config --global core.editor "'C:/Program Files (x86)/sublime text 3/subl.exe' -w"
+Или просто прописать соотвествующий путь.
+
+На примере уже установленного в системе Sublime Text 3:
+*git config --global core.editor "'C:/Program Files (x86)/sublime text 3/subl.exe' -w"*
