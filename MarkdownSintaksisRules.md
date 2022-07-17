@@ -67,7 +67,7 @@
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Текст заголовка логотипа 2"
 
-## *Cсылки:*
+## *Ссылки:*
 Ссылки можно оформить разными способами.
 
 [Обычная ссылка в строке](https://www.google.com)
