@@ -88,7 +88,7 @@ __Как клонировать проект в другую папку?__
 
 * Перешли в папку где находится наш проект --> *cd /GitHubTest*.
 
-* Что за зверь такой - команда:*cd* ? --> [тык сюда](GitNavigationUsingTerminal.md)
+* Что за зверь такой - команда:  *cd* ? --> [тык сюда](Bash_Commands/Bash_Guide_For_Windows.md)
 
 * Решили проверить какие же ветки есть в склонированном проекте с помощью команды [*git branch*](Project_Images/OnlyMainBranchAfterCloning.png) и ужаснулись потому что у нас только одна ветка main и кто-то украл newBranch.
 
